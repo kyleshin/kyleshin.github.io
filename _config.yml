@@ -1,1 +1,7 @@
 theme: jekyll-theme-midnight
+permalink: /blog/:year/:month/:day/:title
+port: 4000
+auto: true
+safe: true
+server: true
+pygments: true
