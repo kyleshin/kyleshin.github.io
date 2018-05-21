@@ -28,6 +28,10 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+ .bg-1{
+   background-color: #2f2f2f; /*black gray*/
+   color: #fff;
+ }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
