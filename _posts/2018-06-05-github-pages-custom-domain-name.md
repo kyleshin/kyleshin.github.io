@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Setting Up Custom Domain Name For GitHub Pages"
-date: 2018-05-18
+date: 2018-06-05
 ---
 ## Setting Up Custom Domain Name For GitHub Pages
 
