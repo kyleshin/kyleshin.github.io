@@ -20,7 +20,7 @@ your solution may require you to create an inset for UILabel.
 2) Subclass UILabel
 
 
-### 1) Use Attributed String
+## 1) Use Attributed String
 
 Adding text inset for attributed string is just a matter
 of setting up a paragraph style.
@@ -45,9 +45,9 @@ leftLabel.attributedText = attributedString
 The label looks like this now. Much better.
 
 <image src="/images/blog/2018-06-12/attributed_text.png" width = "50%">
+</image>
 
-
-### 2)Subclass UILabel
+## 2)Subclass UILabel
 
 Another way to achieve the desired result is to subclass UILabel and override
 drawText(in rect:)
@@ -66,7 +66,7 @@ class InsetLabel: UILabel {
 
 I'll look the same as the above image, so I won't repost the image.
 
-### Final Thoughts
+## Final Thoughts
 
 While not technically a solution for UILabel, it is worth mentioning using UIButton and set it's
 edgeInsets properties could produce the desired result (there are three properties, handling image insets, title
