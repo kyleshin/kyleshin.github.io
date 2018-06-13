@@ -25,8 +25,7 @@ your solution may require you to create an inset for UILabel.
 Adding text inset for attributed string is just a matter
 of setting up a paragraph style.
 
-```swift
-//set the paragraph style
+<pre><code class="line-numbers language-swift">//set the paragraph style
 let paragraphStyle = NSMutableParagraphStyle()
 paragraphStyle.alignment = .left
 paragraphStyle.firstLineHeadIndent = 10 //indent for the first line
@@ -40,7 +39,7 @@ NSAttributedStringKey.foregroundColor: UIColor.white])
 let leftLabel = UILabel()
 leftLabel.backgroundColor = .black
 leftLabel.attributedText = attributedString
-```
+</code></pre>
 
 The label looks like this now. Much better.
 
@@ -52,8 +51,8 @@ The label looks like this now. Much better.
 Another way to achieve the desired result is to subclass UILabel and override
 drawText(in rect:)
 
-```swift
-class InsetLabel: UILabel {
+<pre>
+<code class="line-numbers language-swift">class InsetLabel: UILabel {
 
     override func drawText(in rect: CGRect) {
         let inset = UIEdgeInsetsMake(0, 10, 0, 0)
@@ -61,8 +60,7 @@ class InsetLabel: UILabel {
     }
 
 }
-
-```
+</code></pre>
 
 I'll look the same as the above image, so I won't repost the image.
 

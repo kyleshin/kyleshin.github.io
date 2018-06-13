@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120736833-1"></script>
-			<script>
-  				window.dataLayer = window.dataLayer || [];
-  				function gtag(){dataLayer.push(arguments);}
-  				gtag('js', new Date());
 
-  				gtag('config', 'UA-120736833-1');
-			</script>
-
+			{% include analytics.html %}
 
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | relative_url }}">
+			<link rel="stylesheet" type="text/css" href="{{ "/css/prism.css" | relative_url }}">
 		</head>
 		<body>
+			<script src="/js/prism.js"></script>
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
