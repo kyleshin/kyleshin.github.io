@@ -2,6 +2,7 @@
 layout: post
 title: "How To Create Text Insets In UILabel"
 date: 2018-06-12
+author: Kyle Shin
 comments: false
 ---
 ## How To Create Text Insets In UILabel
