@@ -3,7 +3,7 @@ layout: post
 title: "How To Simulate Bad Network Connection To Test iOS Apps"
 date: 2018-06-24
 author: Kyle Shin
-comments: false
+comments: true
 ---
 ## How To Simulate Bad Network Connection To Test iOS Apps
 
