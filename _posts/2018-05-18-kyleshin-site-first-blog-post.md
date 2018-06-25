@@ -3,6 +3,7 @@ layout: post
 title: "Kyle Shin Launched First Blog Post"
 date: 2018-05-18
 author: Kyle Shin
+comments: true
 ---
 ## First Ever Post
 
