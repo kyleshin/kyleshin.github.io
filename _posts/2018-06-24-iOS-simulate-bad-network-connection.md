@@ -37,6 +37,9 @@ To test your app in simulator with bad network connection, you will need to down
 ![path](/images/blog/2018-06-24/4.png)
 
 
+![path](/images/blog/2018-06-24/6.png)
+
+
 4) Open the Network Link Conditioner and you can select various network speed. Flip the switch ON, and now you can test your app in the simulate with your selected network speed. Note that this speed reduction effects your entire computer.
 
 
