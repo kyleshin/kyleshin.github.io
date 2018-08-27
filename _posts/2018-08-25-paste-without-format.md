@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Paste Without Format"
-date: 2018-07-25
+date: 2018-08-25
 author: Kyle Shin
 comments: true
 ---
