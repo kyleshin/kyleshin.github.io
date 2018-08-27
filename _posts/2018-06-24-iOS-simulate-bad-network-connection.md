@@ -11,10 +11,6 @@ When developing iOS applications, it is important to simulate bad network connec
 By testing under such condition, you may be able to catch unintended behaviors
 in your app.
 
-For example, I worked on an app that was using UITableViewController. As user scroll through the tableView, the app would make call my web services to retrieve the images to display, matching the content of the cell. If the network speed is sufficiently slow, it may take many seconds(perhaps even minutes) to download the image. If the user scrolls through the tableView very fast during the long load time, the dequeue/reuse behavior of tableView cells could produce a situation where the tableViewCell reference I have to set the image would be stale by the time the image returns. This could potentially cause my app to set the image to the wrong cell. Having the ability to test your app under bad network speed would easily display the above problem, while using fast network speed the problem could be masked over, since the image would return before the cell could be dequeued/reused as the user scrolls through the app.
-
-
-
 
 To test your app in simulator with bad network connection, you will need to download an Xcode developer tool called Network Link Conditioner. Below is an quick instruction:
 
