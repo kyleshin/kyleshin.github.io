@@ -11,7 +11,7 @@ Today's post will be a quick guide on basic drawing in iOS.
 
 Create a new single view controller project. Create a new swift file subclassing UIView in your project, let's call it DrawingPad.
 
-We add @IBDesignable before the class keyword. We will also want to override the draw(\_ rect:) function. Our drawing code will go inside there.
+We add @IBDesignable before the class keyword. We will also want to override the draw(\_ rect:) method. Our drawing code will go inside there.
 
 <image src="/images/blog/2018-09-06/1.png" width = "95%"></image>
 
@@ -30,7 +30,7 @@ Let's get started by drawing a straight line.
 
 ### Basic - Draw a straight line
 
-From this point on, all the drawing code should be done within our draw(\_ rect:) function.
+From this point on, all the drawing code should be done within our draw(\_ rect:) method.
 
 <pre><code class="line-numbers language-swift">// 1 - get the context
 
