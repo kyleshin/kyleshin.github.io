@@ -9,9 +9,8 @@ title: Portfolio
       the app or project without having to download them.</p>
 
       <h2>Fite Time</h2>
-      <p><a href="https://www.fitetime.app">Fite Time</a> is an iOS application for Mixed Martial Arts (MMA). It provides upcoming event schedules,
-      fight cards details, and live results update. In an upcoming version, user will also be able to score
-    the fights as they unfold. </p>
+      <p><a href="https://www.fitetime.app">Fite Time</a> is an iOS application for Mixed Martial Arts (MMA). It provides upcoming event schedules, scorecards,
+      fight cards details, and live results update. </p>
     <p> For this application, I built the entire backend plus client. Backend was built on AWS products, such as
       DynamoDB and Lambda functions. The newer portion of the app uses Google
       cloud products. For example, user score section involves both the Realtime and Firestore database. Cloud
@@ -19,13 +18,12 @@ title: Portfolio
     </p>
     <p>This application was written in both Objective-C and Swift.
       Some of the iOS libraries used are core data, notifications, and core animations/graphics.
+      This app is available to download in the app store.
     </p>
     <p>Below are screenshots and gif of the app.</p>
-    <image src="https://s3-us-west-2.amazonaws.com/kyleshin-info-resources/images/ft1.png" width = "20%"></image>
-    <image src="https://s3-us-west-2.amazonaws.com/kyleshin-info-resources/images/ft2.png" width = "20%"></image>
-    <image src="https://s3-us-west-2.amazonaws.com/kyleshin-info-resources/images/ft3.png" width = "20%"></image>
-    <image src="https://s3-us-west-2.amazonaws.com/kyleshin-info-resources/images/score_demo_13.gif" width = "20%"></image>
-    <p><a href = "https://s3-us-west-2.amazonaws.com/kyleshin-info-resources/movies/fitetime_fitescore_demo2.mov">Here is a short movie that demonstrates the scoring feature</a>.</p>
+    <image src="https://firebasestorage.googleapis.com/v0/b/kyleshininfo.appspot.com/o/images%2Fdemo_image_1.png?alt=media&token=9c3584c8-c0d8-4a89-a658-4723f56b2550" width = "20%"></image>
+    <image src="https://firebasestorage.googleapis.com/v0/b/kyleshininfo.appspot.com/o/images%2Fdemo_image_2.png?alt=media&token=d119653c-44fc-4dff-babc-d44115941f38" width = "20%"></image>
+    <image src="https://firebasestorage.googleapis.com/v0/b/kyleshininfo.appspot.com/o/movies%2FscoreDemo8_2.gif?alt=media&token=07189923-b937-4a25-ae5f-09b128f28b96" width = "25%"></image>
 
     <h2>Learn Basic Japanese</h2>
     <p>This untitled application was born from my desire to learn Japanese and my frustration
@@ -56,7 +54,18 @@ title: Portfolio
           You can find the code in my <a href="https://github.com/kyleshin/Present-Image">GitHub</a> page.
         </p>
         <image src="https://s3-us-west-2.amazonaws.com/kyleshin-info-resources/images/tapImage.gif" width = "20%"></image>
-        <h2>Progress Bar Animation</h2>
+      <h2>Slide Up Deck</h2>
+        <p> This project is actually something I'm using in Fite Time. The code will be posted on GitHub, as soon
+          as a few things are cleaned up. Essentially this is quite a popular feature we've seen in many apps. The
+          presenting controller uses a custom presentation view controller to present the presented view controller.
+          This allows us to give it the look of a slide up deck of card, where we can place buttons or labels in the card.
+          The card deck is animated and responds to pan gesture. The way I built this, the animation isn't an interactive
+          view transition(unlike the above project). The dragging animation takes place within the presented view controller.
+          The dismiss animation is part of the custom transition animation.
+        </p>
+        <image src="https://firebasestorage.googleapis.com/v0/b/kyleshininfo.appspot.com/o/movies%2FslideUpCardDemo.gif?alt=media&token=4c983004-c359-4d3b-b574-b1cd2d5cd423" width = "20%"></image>
+
+      <h2>Progress Bar Animation</h2>
         <p>This project demonstrates how to animate a progress bar. The animation here is set to
           decrement from 10 seconds to 0 seconds. Animation is performed every second over 1 second.
           The animation technique could easily be used for something more discrete, such as a step
